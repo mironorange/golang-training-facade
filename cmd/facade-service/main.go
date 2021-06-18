@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/mironorange/golang-training-facade/internal/transliterator"
+)
 
 func main() {
-	fmt.Println("Hello, Facade Lesson!")
+	transliterator.Transliterate()
 }
